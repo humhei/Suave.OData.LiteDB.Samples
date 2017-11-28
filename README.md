@@ -10,7 +10,8 @@
     {"Id":1,"Name":"testCompany"}
 * request: 
 ### POST
-POST http://localhost:8080/odata/company {"Id":2,"Name":"AddCompany"}
+* request: 
+  POST http://localhost:8080/odata/company {"Id":2,"Name":"AddCompany"}
 * response:
   {"Id":2,"Name":"AddCompany"}
 ### DELETE
