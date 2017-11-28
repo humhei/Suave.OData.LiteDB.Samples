@@ -2,13 +2,12 @@
 * cd GetStarted
 * dotnet restore
 * dotnet run
-## CRUD Opreations
+## CRUD Test with Postman
 ### GET
 * request: 
   GET http://localhost:8080/odata/company(1)
 * response:
     {"Id":1,"Name":"testCompany"}
-* request: 
 ### POST
 * request: 
   POST http://localhost:8080/odata/company {"Id":2,"Name":"AddCompany"}
